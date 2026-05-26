@@ -1,1 +1,1 @@
-128 ảnh, up clip, 9 rows
+128 ảnh, update clip, 9 rows
