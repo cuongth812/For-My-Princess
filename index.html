@@ -1940,7 +1940,7 @@
 
             //tăng số lượng ảnh bay lên (total) để có hiệu ứng rải nhiều hơn, nhưng sẽ nặng hơn → cân bằng với grid (khoảng cách tối thiểu giữa các ảnh). 
             // Với total=60 và grid=16, sẽ có khoảng 50-60 ảnh bay lên, khá dày đặc. Nếu muốn thưa hơn, có thể tăng grid lên 20-25.
-            const total = 130, grid = 22, used = [];             
+            const total = 130, grid = 25, used = [];             
             const glowTex = spGlowTexture(128);
             function validPos(x, y, z, d) { return used.every(p => Math.hypot(x-p.x, y-p.y, z-p.z) >= d); }
             function findPos(size) {
